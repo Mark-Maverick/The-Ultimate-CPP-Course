@@ -8,10 +8,11 @@ int main(){
     int a = 25;
     // cout << "hello world" << endl;
     cout << "a = " << a << endl;
+    cout << "Size of A  = " << sizeof(a) << endl;
     float b = 1.25;
     cout << sizeof(b) << endl;
     cout << "b = " << b << endl;
-    bool c = false; // in boolean algebra true is 1 and false is 0
+    bool c = true; // in boolean algebra true is 1 and false is 0
     cout << "c = " << c << endl;
     char d = 'M';
     cout << "d = " << d << endl;
